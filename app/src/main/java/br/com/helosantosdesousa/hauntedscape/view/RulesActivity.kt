@@ -1,12 +1,11 @@
-package br.com.helosantosdesousa.hauntedscape
+package br.com.helosantosdesousa.hauntedscape.view
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import br.com.helosantosdesousa.hauntedscape.R
 
 class RulesActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

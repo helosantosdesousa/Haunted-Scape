@@ -13,16 +13,16 @@
         android:theme="@style/Theme.HauntedScape"
         tools:targetApi="31">
         <activity
-            android:name=".LoreActivity"
+            android:name=".view.LoreActivity"
             android:exported="false" />
         <activity
-            android:name=".GameActivity"
+            android:name=".view.GameActivity"
             android:exported="false" />
         <activity
-            android:name=".RulesActivity"
+            android:name=".view.RulesActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

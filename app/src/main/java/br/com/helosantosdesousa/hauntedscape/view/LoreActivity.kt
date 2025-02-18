@@ -1,12 +1,12 @@
-package br.com.helosantosdesousa.hauntedscape
+package br.com.helosantosdesousa.hauntedscape.view
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import br.com.helosantosdesousa.hauntedscape.R
+import com.google.androidgamesdk.GameActivity
 
 class LoreActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,8 +16,10 @@ class LoreActivity : AppCompatActivity() {
         val layout = findViewById<View>(R.id.main_layout)
 
         layout.setOnClickListener{
-            val intent = Intent(this@LoreActivity, GameActivity::class.java)
+            val intent = Intent(this, br.com.helosantosdesousa.hauntedscape.view.GameActivity::class.java)
             startActivity(intent)
+
+            println("mudei de tela")
 
         }
     }
